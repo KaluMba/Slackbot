@@ -134,12 +134,3 @@ class Slackbot:
             title=title)
         assert response['ok']
         return response
-
-# # If you have your slack 'Bot User OAuth Access Token' saved in a JSON file {str(Path.home())}/Credentials/slack.json
-# slackbot = Slackbot()
-# slackbot.send_message('Hello, World!', 'YOUR-SLACK-EMAIL')
-
-# # to test your onboarding message
-# slackbot._send_onboarding_message('YOUR-SLACK-EMAIL')
-
-
