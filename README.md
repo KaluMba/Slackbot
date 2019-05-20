@@ -32,7 +32,7 @@ _If you wish to extend this class you may need to use your `OAuth Access Token` 
 Slackbot defaults to read your token from the JSON file `/Users/YOU/Credentials/slack.json`. Create this folder and file as below.
 ```
 {
-  "token": "xoxb-29XXXXXXXX-64XXXXXXXXXX-euXXXXXXXXXXXXXXXXXXXXXX",
+  "token": "xoxb-29XXXXXXXX-64XXXXXXXXXX-euXXXXXXXXXXXXXXXXXXXXXX"
 }
 ```
 If not; you can give your token manually when initialising an instance of Slackbot with `Slackbot(token=TOKEN)`, but this is not recommended for safety.
